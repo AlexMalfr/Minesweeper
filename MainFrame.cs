@@ -519,7 +519,7 @@ namespace Minesweeper {
             String message = "This game was made by Alexandre MALFREYT." + Environment.NewLine
                 + "It was made for the course \"Développement d'applications avec IHM\" at the IUT d'Orsay." + Environment.NewLine
                 + "It is an assignment for the 2nd semester." + Environment.NewLine
-                + "The source code is available on GitHub at https://github.com/AlexZeGamer/Minesweeper";
+                + "The source code is available on GitHub at https://github.com/AlexMalfr/Minesweeper";
 
             MessageBoxButtons buttons = MessageBoxButtons.OK;
             MessageBox.Show(message, title, buttons, MessageBoxIcon.Information);
@@ -554,7 +554,7 @@ namespace Minesweeper {
 
             Process p = new Process();
             p.StartInfo.FileName = Default_Browser_Path;
-            p.StartInfo.Arguments = "https://github.com/AlexZeGamer/Minesweeper";
+            p.StartInfo.Arguments = "https://github.com/AlexMalfr/Minesweeper";
             p.Start();
         }
 
